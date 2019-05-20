@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Toolbar标题-->
+    <style name="Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">?attr/common_title_text_color</item>
+        <item name="android:textSize">?attr/common_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Toolbar副标题-->
+    <style name="Toolbar.Subtitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textColor">@color/common_sub_title_text_color</item>
+        <item name="android:textSize">@dimen/common_sub_title_text_size</item>
+    </style>
+
+    <style name="Toolbar.Menu" parent="TextAppearance.Base">
+        <item name="android:textSize">?attr/common_toolbar_menu_text_size</item>
+        <!--颜色在这里设置无效，需要在主题里设置actionMenuTextColor属性-->
+    </style>
+
+    <!--PopupMenu Them-->
+    <style name="Toolbar.PopupMenu" parent="ThemeOverlay.AppCompat.Dark">
+        <!--PopupMenu背景色 也可以在actionOverflowMenuStyle 属性下设置的 style里设置-->
+        <!--<item name="android:colorBackground">@color/white</item>-->
+        <!--PopupMenu文字颜色-->
+        <item name="android:textColorPrimary">@color/common_text_color</item>
+        <!--PopupMenu文字大小-->
+        <item name="android:textSize">@dimen/common_text_size</item>
+        <!--Toolbar PopupMenu位置-->
+        <item name="actionOverflowMenuStyle">@style/Toolbar.PopupMenu.Overflow</item>
+        <!--设置为false时menu位于Toolbar下方-->
+        <!--<item name="overlapAnchor">false</item>-->
+    </style>
+
+    <!--溢出菜单样式 https://blog.csdn.net/yingtian648/article/details/52432438-->
+    <!--<style name="Toolbar.PopupMenu.Overflow" parent="Widget.AppCompat.Light.PopupMenu.Overflow">-->
+    <style name="Toolbar.PopupMenu.Overflow" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
+        <!--PopupMenu背景色-->
+        <item name="android:popupBackground">@color/white</item>
+        <!--设置为false时menu位于Toolbar下方-->
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:paddingRight">600dp</item>
+        <item name="android:textColor">#f40</item>
+        <!--PopupMenu垂直方向偏移量-->
+        <item name="android:dropDownVerticalOffset">0dp</item>
+        <!--PopupMenu水平方向偏移量-->
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+        <item name="android:radius">50dp</item>
+    </style>
+
+    <!--Toolbar PopupMenu 分割线-->
+    <style name="Toolbar.PopupMenu.Overflow.Divider" parent="android:Widget.Holo.ListView.DropDown">
+        <item name="android:divider">?attr/common_divider_color</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+
+    <!--导肮按钮样式,需要设置在主题里的toolbarNavigationButtonStyle属性下-->
+    <style name="Toolbar.Button.Navigation" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">@dimen/toolbar_height</item>
+    </style>
+
+    <!--Toolbar base style-->
+    <style name="Toolbar.Base" parent="Widget.AppCompat.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+
+        <item name="android:background">?attr/colorPrimary</item>
+
+        <item name="titleTextAppearance">@style/Toolbar.Title</item>
+        <item name="subtitleTextAppearance">@style/Toolbar.Subtitle</item>
+
+        <item name="popupTheme">@style/Toolbar.PopupMenu</item>
+
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="buttonGravity">top</item>
+        <item name="maxButtonHeight">?attr/actionBarSize</item>
+    </style>
+
+    <!--沉浸式状态栏主题下的Toolbar style-->
+    <style name="Toolbar.Base.Immersion" parent="Toolbar.Base">
+        <item name="android:layout_height">@dimen/toolbar_height_immersion</item>
+        <item name="android:minHeight">@dimen/toolbar_height_immersion</item>
+        <item name="android:paddingTop">@dimen/toolbar_immersion_padding_top</item>
+        <item name="maxButtonHeight">@dimen/toolbar_height</item>
+    </style>
+
+    <!--Toolbar style-->
+    <style name="Toolbar.Common" parent="Toolbar.Base" />
+
+    <style name="Toolbar.Immersion" parent="Toolbar.Base.Immersion" />
+
+</resources>

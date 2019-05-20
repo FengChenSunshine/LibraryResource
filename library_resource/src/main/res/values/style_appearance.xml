@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.Base" parent="android:TextAppearance" />
+
+    <style name="TextAppearance.Common" parent="TextAppearance.Base">
+        <item name="android:textColor">?attr/common_text_color</item>
+        <item name="android:textSize">?attr/common_text_size</item>
+    </style>
+
+    <style name="TextAppearance.Title" parent="TextAppearance.Common">
+        <item name="android:textColor">?attr/common_title_text_color</item>
+        <item name="android:textSize">?attr/common_title_text_size</item>
+    </style>
+
+</resources>

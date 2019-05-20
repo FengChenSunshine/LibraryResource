@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Widget控件主题色,解决当主题色和控件主题色不一致问题-->
+    <attr name="widget_primary" format="color" />
+    <attr name="widget_primary_enable" format="color" />
+
+    <!--Toolbar上的Menu文字大小-->
+    <attr name="common_toolbar_menu_text_size" format="dimension" />
+    <!--Toolbar上的Menu文字颜色-->
+    <attr name="common_toolbar_menu_text_color" format="color" />
+    <!--Toolbar标题颜色、大小-->
+    <attr name="common_title_text_color" format="color" />
+    <attr name="common_title_text_size" format="dimension" />
+    <attr name="common_title_text_style" format="flags">
+        <flag name="normal" value="0" />
+        <flag name="bold" value="1" />
+        <flag name="italic" value="2" />
+    </attr>
+    <!--Toolbar导航图标-->
+    <attr name="common_navigation_icon" format="reference" />
+
+    <!--公共的向右的箭头-->
+    <attr name="common_arrow_right" format="reference" />
+
+    <!--全局公共的Text文字颜色-->
+    <attr name="common_text_color" format="color" />
+    <!--全局公共的Text文字大小-->
+    <attr name="common_text_size" format="dimension" />
+
+    <!--全局公共的EditText文字颜色-->
+    <attr name="common_edit_text_color" format="color" />
+    <!--全局公共的EditText Hint文字颜色-->
+    <attr name="common_edit_text_color_hint" format="color" />
+    <!--全局公共的EditText文字大小-->
+    <attr name="common_edit_text_size" format="dimension" />
+    <!--全局公共的EditText文字长度限制-->
+    <attr name="common_edit_text_max_length" format="integer" />
+
+    <!--全局公共的Button文字颜色-->
+    <attr name="common_button_text_color" format="color" />
+    <!--全局公共的Button文字大小-->
+    <attr name="common_button_text_size" format="dimension" />
+
+    <!--公共CheckBox选中颜色-->
+    <attr name="common_check_box_checked_color" format="color" />
+    <!--公共CheckBox默认颜色-->
+    <attr name="common_check_box_normal_color" format="color" />
+    <!--公共RadioButton选中颜色-->
+    <attr name="common_radio_button_checked_color" format="color" />
+    <!--公共RadioButton默认颜色-->
+    <attr name="common_radio_button_normal_color" format="color" />
+
+    <!--分割线颜色-->
+    <attr name="common_divider_color" format="color" />
+
+</resources>

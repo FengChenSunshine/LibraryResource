@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--以右下角为锚点缩放显示动画-->
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="250"
+    android:fillAfter="false"
+    android:fromXScale="0.0"
+    android:fromYScale="0.0"
+    android:pivotX="90%"
+    android:pivotY="100%"
+    android:toXScale="1.0"
+    android:toYScale="1.0" />

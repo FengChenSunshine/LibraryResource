@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--外边距值-->
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_55">55dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_65">65dp</dimen>
+    <dimen name="margin_70">70dp</dimen>
+    <dimen name="margin_75">75dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_85">85dp</dimen>
+    <dimen name="margin_90">90dp</dimen>
+    <dimen name="margin_95">95dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+
+    <!--内边距值-->
+    <dimen name="padding_1">1dp</dimen>
+    <dimen name="padding_2">2dp</dimen>
+    <dimen name="padding_3">3dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_25">25dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+    <dimen name="padding_35">35dp</dimen>
+    <dimen name="padding_40">40dp</dimen>
+    <dimen name="padding_45">45dp</dimen>
+    <dimen name="padding_50">50dp</dimen>
+    <dimen name="padding_55">55dp</dimen>
+    <dimen name="padding_60">60dp</dimen>
+    <dimen name="padding_65">65dp</dimen>
+    <dimen name="padding_70">70dp</dimen>
+    <dimen name="padding_75">75dp</dimen>
+    <dimen name="padding_80">80dp</dimen>
+    <dimen name="padding_85">85dp</dimen>
+    <dimen name="padding_90">90dp</dimen>
+    <dimen name="padding_95">95dp</dimen>
+    <dimen name="padding_100">100dp</dimen>
+
+    <!--间距值-->
+    <dimen name="space_1">1dp</dimen>
+    <dimen name="space_2">2dp</dimen>
+    <dimen name="space_3">3dp</dimen>
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_5">5dp</dimen>
+    <dimen name="space_10">10dp</dimen>
+    <dimen name="space_15">15dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="space_25">25dp</dimen>
+    <dimen name="space_30">30dp</dimen>
+    <dimen name="space_35">35dp</dimen>
+    <dimen name="space_40">40dp</dimen>
+    <dimen name="space_45">45dp</dimen>
+    <dimen name="space_50">50dp</dimen>
+    <dimen name="space_55">55dp</dimen>
+    <dimen name="space_60">60dp</dimen>
+    <dimen name="space_65">65dp</dimen>
+    <dimen name="space_70">70dp</dimen>
+    <dimen name="space_75">75dp</dimen>
+    <dimen name="space_80">80dp</dimen>
+    <dimen name="space_85">85dp</dimen>
+    <dimen name="space_90">90dp</dimen>
+    <dimen name="space_95">95dp</dimen>
+    <dimen name="space_100">100dp</dimen>
+
+    <!--文字大小(sp)-->
+    <dimen name="text_size_34">34sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_26">26sp</dimen>
+    <dimen name="text_size_xxx_large">24sp</dimen>
+    <dimen name="text_size_xx_large">22sp</dimen>
+    <dimen name="text_size_x_large">20sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_x_small">12sp</dimen>
+    <dimen name="text_size_xx_small">10sp</dimen>
+    <dimen name="text_size_xxx_small">8sp</dimen>
+
+    <!--文字大小(dp)-->
+    <dimen name="text_size_34_dp">34dp</dimen>
+    <dimen name="text_size_32_dp">32dp</dimen>
+    <dimen name="text_size_30_dp">30dp</dimen>
+    <dimen name="text_size_28_dp">28dp</dimen>
+    <dimen name="text_size_26_dp">26dp</dimen>
+    <dimen name="text_size_xxx_large_dp">24dp</dimen>
+    <dimen name="text_size_xx_large_dp">22dp</dimen>
+    <dimen name="text_size_x_large_dp">20dp</dimen>
+    <dimen name="text_size_large_dp">18dp</dimen>
+    <dimen name="text_size_medium_dp">16dp</dimen>
+    <dimen name="text_size_small_dp">14dp</dimen>
+    <dimen name="text_size_x_small_dp">12dp</dimen>
+    <dimen name="text_size_xx_small_dp">10dp</dimen>
+    <dimen name="text_size_xxx_small_dp">8dp</dimen>
+
+    <!--Toolbar高度-->
+    <dimen name="toolbar_height">48dp</dimen>
+    <!--沉浸式状态栏Toolbar高度：48+25-->
+    <dimen name="toolbar_height_immersion">73dp</dimen>
+    <dimen name="toolbar_immersion_padding_top">25dp</dimen>
+
+    <!--视图外边距-->
+    <dimen name="common_layout_margin">10dp</dimen>
+    <dimen name="common_layout_margin_left">10dp</dimen>
+    <dimen name="common_layout_margin_top">10dp</dimen>
+    <dimen name="common_layout_margin_right">10dp</dimen>
+    <dimen name="common_layout_margin_bottom">10dp</dimen>
+
+    <!--视图内边距-->
+    <dimen name="common_layout_padding">10dp</dimen>
+    <dimen name="common_layout_padding_left">10dp</dimen>
+    <dimen name="common_layout_padding_top">10dp</dimen>
+    <dimen name="common_layout_padding_right">10dp</dimen>
+    <dimen name="common_layout_padding_bottom">10dp</dimen>
+
+    <!--副标题文字大小-->
+    <dimen name="common_sub_title_text_size">@dimen/text_size_small_dp</dimen>
+
+    <!--默认文字大小-->
+    <dimen name="common_text_size">@dimen/text_size_medium_dp</dimen>
+    <!--默认EditText文字大小-->
+    <dimen name="common_edit_text_size">@dimen/text_size_medium_dp</dimen>
+    <!--默认Button文字大小-->
+    <dimen name="common_button_text_size">@dimen/text_size_medium_dp</dimen>
+
+    <!--默认圆角大小-->
+    <dimen name="common_radius">5dp</dimen>
+    <!--默认圆形shape radius-->
+    <dimen name="common_circle">180dp</dimen>
+    <!--默认边框宽度-->
+    <dimen name="common_stroke_width">1dp</dimen>
+
+</resources>
