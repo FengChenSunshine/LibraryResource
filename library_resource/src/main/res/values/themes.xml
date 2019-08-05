@@ -22,6 +22,9 @@
         <item name="actionMenuTextAppearance">@style/Toolbar.Menu</item>
         <!--Toolbar上的菜单文字颜色-->
         <item name="actionMenuTextColor">?attr/common_toolbar_menu_text_color</item>
+
+        <!--AppCompatDialog默认主题-->
+        <item name="dialogTheme">@style/AppCompatDialog.Common</item>
     </style>
 
     <!--配置Config-->
