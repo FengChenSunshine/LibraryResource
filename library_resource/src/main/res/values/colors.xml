@@ -71,6 +71,8 @@
 
     <!--分割线颜色-->
     <color name="default_divider_color">#F1F0F2</color>
+    <!--位于Toolbar和页面内容之间的分割线颜色-->
+    <color name="common_divider_toolbar_content_color">#333333</color>
 
     <!--默认透明度-->
     <color name="common_transparency_color">@color/transparency_375</color>

@@ -53,5 +53,11 @@
 
     <!--分割线颜色-->
     <attr name="common_divider_color" format="color" />
+    <!--分割线线宽(水平分割线默认高度、垂直分割线默认宽度)-->
+    <attr name="common_divider_width" format="dimension" />
+    <!--位于Toolbar和页面内容之间的分割线-->
+    <attr name="common_divider_toolbar_content_color" format="color" />
+    <!--位于Toolbar和页面内容之间的分割线线宽-->
+    <attr name="common_divider_toolbar_content_width" format="dimension" />
 
 </resources>

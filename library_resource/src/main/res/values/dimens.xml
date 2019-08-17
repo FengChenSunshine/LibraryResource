@@ -148,4 +148,9 @@
     <!--默认边框宽度-->
     <dimen name="common_stroke_width">1dp</dimen>
 
+    <!--水平分割线默认高度、垂直分割线默认宽度-->
+    <dimen name="common_divider_width">1px</dimen>
+    <!--位于Toolbar和页面内容之间的分割线线宽-->
+    <dimen name="common_divider_toolbar_content_width">1px</dimen>
+
 </resources>

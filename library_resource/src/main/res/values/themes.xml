@@ -37,8 +37,6 @@
         <item name="widget_primary">@color/widget_primary</item>
         <item name="widget_primary_enable">@color/widget_primary_enable</item>
 
-        <item name="common_divider_color">@color/default_divider_color</item>
-
         <!--Toolbar上的Menu文字大小-->
         <item name="common_toolbar_menu_text_size">@dimen/text_size_small_dp</item>
         <!--Toolbar上的Menu文字颜色-->
@@ -79,6 +77,12 @@
 
         <!--该属性可以控制Toolbar溢出菜单按钮颜色-->
         <item name="android:textColorSecondary">@color/white</item>
+
+        <!--分割线配置-->
+        <item name="common_divider_color">@color/default_divider_color</item>
+        <item name="common_divider_width">@dimen/common_divider_width</item>
+        <item name="common_divider_toolbar_content_color">@color/common_divider_toolbar_content_color</item>
+        <item name="common_divider_toolbar_content_width">@dimen/common_divider_toolbar_content_width</item>
     </style>
 
     <!--该主题为AppTheme基类，主要用于在app module里配置自定义属性-->
