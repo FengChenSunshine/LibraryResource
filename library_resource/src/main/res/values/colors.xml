@@ -2,13 +2,31 @@
 <resources>
 
     <!--主题色，需要在app model下覆盖-->
-    <!--标题栏(Toolbar)颜色-->
+    <!--应用的主要色调,actionBar默认使用该颜色,Toolbar导航栏的底色-->
     <color name="colorPrimary">#008577</color>
-    <!--状态栏颜色-->
+    <!--应用的主要暗色调,状态栏statusBarColor默认使用该颜色-->
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="activityBackground">#F1F0F2</color>
-    <!--<color name="activityBackground">#FAFAFA</color>-->
+    <!--状态栏颜色,默认使用colorPrimaryDark-->
+    <color name="statusBarColor">?attr/colorPrimaryDark</color>
+    <!--窗口背景颜色-->
+    <color name="windowBackground">#F1F0F2</color>
+    <!--底部栏颜色-->
+    <color name="navigationBarColor">@color/black</color>
+    <!--应用的前景色,ListView的分割线,switch滑动区默认使用该颜色-->
+    <color name="colorForeground">#999999</color>
+    <!--应用的背景色,popMenu的背景默认使用该颜色-->
+    <color name="colorBackground">?android:windowBackground</color>
+    <!--CheckBox,RadioButton,SwitchCompat等一般控件的选中效果默认采用该颜色-->
+    <color name="colorAccent">?attr/widget_primary</color>
+    <!--控件选中时的颜色,默认使用colorAccent-->
+    <color name="colorControlActivated">?attr/colorAccent</color>
+    <!--CheckBox,RadioButton,SwitchCompat等默认状态的颜色-->
+    <color name="colorControlNormal">#999999</color>
+    <!--控件按压时的色调-->
+    <color name="colorControlHighlight">@color/ripple_material_light</color>
+    <!--默认按钮的背景颜色-->
+    <color name="colorButtonNormal">?attr/widget_primary</color>
+
     <!--Widget控件主题色,解决当主题色和控件主题色不一致问题-->
     <color name="widget_primary">@color/colorPrimary</color>
     <color name="widget_primary_enable">@color/colorPrimary</color>
