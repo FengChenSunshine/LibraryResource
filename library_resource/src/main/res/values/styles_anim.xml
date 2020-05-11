@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="anim_bottom_slid">
-        <item name="android:windowEnterAnimation">@anim/anim_slide_in_bottom</item>
-        <item name="android:windowExitAnimation">@anim/anim_slide_out_bottom</item>
+    <style name="resource_anim_bottom_slid">
+        <item name="android:windowEnterAnimation">@anim/resource_anim_slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/resource_anim_slide_out_bottom</item>
     </style>
 
-    <style name="anim_right_bottom_scale">
-        <item name="android:windowEnterAnimation">@anim/anim_bottom_right_scale_show</item>
-        <item name="android:windowExitAnimation">@anim/anim_bottom_right_scale_hide</item>
+    <style name="resource_anim_right_bottom_scale">
+        <item name="android:windowEnterAnimation">@anim/resource_anim_bottom_right_scale_show</item>
+        <item name="android:windowExitAnimation">@anim/resource_anim_bottom_right_scale_hide</item>
     </style>
 
-    <style name="anim_right_top_scale">
-        <item name="android:windowEnterAnimation">@anim/anim_top_right_scale_show</item>
-        <item name="android:windowExitAnimation">@anim/anim_top_right_scale_hide</item>
+    <style name="resource_anim_right_top_scale">
+        <item name="android:windowEnterAnimation">@anim/resource_anim_top_right_scale_show</item>
+        <item name="android:windowExitAnimation">@anim/resource_anim_top_right_scale_hide</item>
     </style>
 
 </resources>

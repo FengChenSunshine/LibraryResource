@@ -2,12 +2,12 @@
 <resources>
 
     <!--手机号码长度-->
-    <integer name="common_mobile_length">11</integer>
+    <integer name="resource_mobile_length">11</integer>
     <!--验证码长度-->
-    <integer name="common_captcha_length">4</integer>
+    <integer name="resource_captcha_length">4</integer>
 
     <!--EditText输入文字长度限制-->
-    <integer name="common_edit_text_length">1000</integer>
+    <integer name="resource_edit_text_length">1000</integer>
 
     <!--Dialog动画默认时常-->
     <integer name="default_dialog_animation_duration">300</integer>

@@ -2,16 +2,16 @@
 <resources>
 
     <!--沉浸式Theme-->
-    <style name="AppTheme.Immersion" parent="AppTheme.NoActionBar">
+    <style name="Resource.AppTheme.Immersion" parent="Resource.AppTheme.NoActionBar">
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">false</item>
         <!--<item name="android:windowTranslucentStatus">false</item>-->
         <!--<item name="android:windowTranslucentNavigation">true</item>-->
         <!--Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色-->
-        <item name="android:statusBarColor">@color/transparency</item>
+        <item name="android:statusBarColor">@color/resource_transparency</item>
 
         <item name="toolbarStyle">@style/Toolbar.Immersion</item>
-        <item name="android:actionBarSize">@dimen/toolbar_height_immersion</item>
+        <item name="android:actionBarSize">@dimen/resource_toolbar_height_immersion</item>
     </style>
 
 </resources>

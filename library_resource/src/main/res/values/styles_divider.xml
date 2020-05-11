@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="divider">
-        <item name="android:background">?attr/common_divider_color</item>
+    <style name="resource_divider">
+        <item name="android:background">?attr/resourceDividerColor</item>
     </style>
 
-    <style name="divider_1dp" parent="divider">
+    <style name="resource_divider_1px" parent="resource_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/resourceDividerWidth</item>
+    </style>
+
+    <style name="resource_divider_1dp" parent="resource_divider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
     </style>
 
-    <style name="divider_1px" parent="divider">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">?attr/common_divider_width</item>
+    <style name="resource_divider_margin_1dp" parent="resource_divider_1dp">
+        <item name="android:layout_marginLeft">@dimen/resource_layout_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/resource_layout_margin_right</item>
     </style>
 
-    <style name="divider_margin_1dp" parent="divider_1dp">
-        <item name="android:layout_marginLeft">@dimen/common_layout_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/common_layout_margin_right</item>
+    <style name="resource_divider_margin_1px" parent="resource_divider_1px">
+        <item name="android:layout_marginLeft">@dimen/resource_layout_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/resource_layout_margin_right</item>
     </style>
 
-    <style name="divider_margin_1px" parent="divider_1px">
-        <item name="android:layout_marginLeft">@dimen/common_layout_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/common_layout_margin_right</item>
-    </style>
-
-    <style name="divider_vertical_1dp" parent="divider">
+    <style name="resource_divider_vertical_1dp" parent="resource_divider">
         <item name="android:layout_width">1dp</item>
         <item name="android:layout_height">match_parent</item>
     </style>
 
-    <style name="divider_vertical_1px" parent="divider">
-        <item name="android:layout_width">?attr/common_divider_width</item>
+    <style name="resource_divider_vertical_1px" parent="resource_divider">
+        <item name="android:layout_width">?attr/resourceDividerWidth</item>
         <item name="android:layout_height">match_parent</item>
     </style>
 
-    <style name="divider_vertical_margin_1dp" parent="divider_vertical_1dp">
-        <item name="android:layout_marginTop">@dimen/common_layout_margin_top</item>
-        <item name="android:layout_marginBottom">@dimen/common_layout_margin_bottom</item>
+    <style name="resource_divider_vertical_margin_1dp" parent="resource_divider_vertical_1dp">
+        <item name="android:layout_marginTop">@dimen/resource_layout_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/resource_layout_margin_bottom</item>
     </style>
 
-    <style name="divider_vertical_margin_1px" parent="divider_vertical_1px">
-        <item name="android:layout_marginTop">@dimen/common_layout_margin_top</item>
-        <item name="android:layout_marginBottom">@dimen/common_layout_margin_bottom</item>
+    <style name="resource_divider_vertical_margin_1px" parent="resource_divider_vertical_1px">
+        <item name="android:layout_marginTop">@dimen/resource_layout_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/resource_layout_margin_bottom</item>
     </style>
 
     <!--位于Toolbar和页面内容之间的分割线-->
-    <style name="divider_toolbar_content">
-        <item name="android:background">?attr/common_divider_toolbar_content_color</item>
+    <style name="resource_divider_toolbar_content">
+        <item name="android:background">?attr/resourceDividerToolbarContentColor</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">?attr/common_divider_toolbar_content_width</item>
+        <item name="android:layout_height">?attr/resourceDividerToolbarContentWidth</item>
     </style>
 
 </resources>

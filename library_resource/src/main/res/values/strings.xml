@@ -1,8 +1,12 @@
 <resources>
 
-    <string name="RMB">¥</string>
+    <string name="resource_RMB">¥</string>
 
-    <string name="button_confirm">确定</string>
-    <string name="button_cancel">取消</string>
+    <string name="resource_button_confirm">确定</string>
+    <string name="resource_button_save">保存</string>
+    <string name="resource_button_submit">提交</string>
+    <string name="resource_button_cancel">取消</string>
+    <string name="resource_button_exit">退出</string>
+    <string name="resource_button_return">返回</string>
 
 </resources>

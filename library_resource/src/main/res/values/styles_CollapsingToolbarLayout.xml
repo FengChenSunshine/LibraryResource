@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Resource.CollapsingToolbarLayout.Base" parent="Resource.Layout.MW">
+        <item name="contentScrim">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Resource.CollapsingToolbarLayout.Common" parent="Resource.CollapsingToolbarLayout.Base">
+        <item name="scrimVisibleHeightTrigger">@dimen/resource_scrim_visible_height_trigger</item>
+    </style>
+
+    <style name="Resource.CollapsingToolbarLayout.Immersion" parent="Resource.CollapsingToolbarLayout.Base">
+        <item name="scrimVisibleHeightTrigger">
+            @dimen/resource_scrim_visible_height_trigger_immersion
+        </item>
+    </style>
+
+</resources>

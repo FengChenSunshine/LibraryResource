@@ -2,7 +2,7 @@
 <resources>
 
     <!--沉浸式Theme-->
-    <style name="AppTheme.Immersion" parent="AppTheme.NoActionBar">
+    <style name="AppTheme.Immersion" parent="Resource.AppTheme.NoActionBar">
         <!--v19 开始有 android:windowTranslucentStatus 这个属性-->
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">false</item>
@@ -10,7 +10,7 @@
         <!--<item name="android:windowTranslucentNavigation">true</item>-->
 
         <item name="toolbarStyle">@style/Toolbar.Immersion</item>
-        <item name="android:actionBarSize">@dimen/toolbar_height_immersion</item>
+        <item name="android:actionBarSize">@dimen/resource_toolbar_height_immersion</item>
     </style>
 
 </resources>

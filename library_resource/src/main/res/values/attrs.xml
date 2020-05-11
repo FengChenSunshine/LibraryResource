@@ -2,62 +2,66 @@
 <resources>
 
     <!--Widget控件主题色,解决当主题色和控件主题色不一致问题-->
-    <attr name="widget_primary" format="color" />
-    <attr name="widget_primary_enable" format="color" />
+    <attr name="resourceWidgetPrimary" format="color" />
+    <attr name="resourceWidgetPrimaryEnable" format="color" />
 
     <!--Toolbar上的Menu文字大小-->
-    <attr name="common_toolbar_menu_text_size" format="dimension" />
-    <!--Toolbar上的Menu文字颜色-->
-    <attr name="common_toolbar_menu_text_color" format="color" />
+    <!--Toolbar高度-->
+    <attr name="resourceToolbarHeight" format="dimension" />
+    <attr name="resourceToolbarMenuTextSize" format="dimension" />
     <!--Toolbar标题颜色、大小-->
-    <attr name="common_title_text_color" format="color" />
-    <attr name="common_title_text_size" format="dimension" />
-    <attr name="common_title_text_style" format="flags">
+    <attr name="resourceTitleTextColor" format="color" />
+    <attr name="resourceTitleTextSize" format="dimension" />
+    <attr name="resourceTitleTextStyle" format="flags">
         <flag name="normal" value="0" />
         <flag name="bold" value="1" />
         <flag name="italic" value="2" />
     </attr>
     <!--Toolbar导航图标-->
-    <attr name="common_navigation_icon" format="reference" />
-
-    <!--公共的向右的箭头-->
-    <attr name="common_arrow_right" format="reference" />
+    <attr name="resourceNavigationIcon" format="reference" />
 
     <!--全局公共的Text文字颜色-->
-    <attr name="common_text_color" format="color" />
+    <attr name="resourceTextColor" format="color" />
     <!--全局公共的Text文字大小-->
-    <attr name="common_text_size" format="dimension" />
+    <attr name="resourceTextSize" format="dimension" />
 
     <!--全局公共的EditText文字颜色-->
-    <attr name="common_edit_text_color" format="color" />
+    <attr name="resourceEditTextColor" format="color" />
     <!--全局公共的EditText Hint文字颜色-->
-    <attr name="common_edit_text_color_hint" format="color" />
+    <attr name="resourceEditTextColorHint" format="color" />
     <!--全局公共的EditText文字大小-->
-    <attr name="common_edit_text_size" format="dimension" />
+    <attr name="resourceEditTextSize" format="dimension" />
     <!--全局公共的EditText文字长度限制-->
-    <attr name="common_edit_text_max_length" format="integer" />
+    <attr name="resourceEditTextMaxLength" format="integer" />
 
     <!--全局公共的Button文字颜色-->
-    <attr name="common_button_text_color" format="color" />
+    <attr name="resourceButtonTextColor" format="color" />
     <!--全局公共的Button文字大小-->
-    <attr name="common_button_text_size" format="dimension" />
+    <attr name="resourceButtonTextSize" format="dimension" />
 
     <!--公共CheckBox选中颜色-->
-    <attr name="common_check_box_checked_color" format="color" />
+    <attr name="resourceCheckBoxCheckedColor" format="color" />
     <!--公共CheckBox默认颜色-->
-    <attr name="common_check_box_normal_color" format="color" />
+    <attr name="resourceCheckBoxNormalColor" format="color" />
     <!--公共RadioButton选中颜色-->
-    <attr name="common_radio_button_checked_color" format="color" />
+    <attr name="resourceRadioButtonCheckedColor" format="color" />
     <!--公共RadioButton默认颜色-->
-    <attr name="common_radio_button_normal_color" format="color" />
+    <attr name="resourceRadioButtonNormalColor" format="color" />
 
     <!--分割线颜色-->
-    <attr name="common_divider_color" format="color" />
+    <attr name="resourceDividerColor" format="color" />
     <!--分割线线宽(水平分割线默认高度、垂直分割线默认宽度)-->
-    <attr name="common_divider_width" format="dimension" />
+    <attr name="resourceDividerWidth" format="dimension" />
     <!--位于Toolbar和页面内容之间的分割线-->
-    <attr name="common_divider_toolbar_content_color" format="color" />
+    <attr name="resourceDividerToolbarContentColor" format="color" />
     <!--位于Toolbar和页面内容之间的分割线线宽-->
-    <attr name="common_divider_toolbar_content_width" format="dimension" />
+    <attr name="resourceDividerToolbarContentWidth" format="dimension" />
+
+    <!--圆角-->
+    <attr name="resourceRadius" format="dimension" />
+    <!--半圆角-->
+    <attr name="resourceCircle" format="dimension" />
+    <!--水波纹涟漪颜色-->
+    <attr name="resourceRippleColor" format="color" />
 
 </resources>

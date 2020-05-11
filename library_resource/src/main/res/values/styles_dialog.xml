@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Dialog.Base" parent="@android:style/Theme.Dialog">
+    <style name="Resource.Dialog.Base" parent="@android:style/Theme.Dialog">
         <!-- Dialog的windowFrame框为无 -->
         <item name="android:windowFrame">@null</item>
         <!-- 是否漂现在activity上 -->
@@ -18,9 +18,9 @@
         <item name="android:backgroundDimAmount">0.6</item>
     </style>
 
-    <style name="Dialog.Common" parent="Dialog.Base" />
+    <style name="Resource.Dialog.Common" parent="Resource.Dialog.Base" />
 
-    <style name="AppCompatDialog.Base" parent="Theme.AppCompat.Light.Dialog">
+    <style name="Resource.AppCompatDialog.Base" parent="Theme.AppCompat.Light.Dialog">
         <!--去掉系统默认标题栏-->
         <item name="windowNoTitle">true</item>
         <!--这个很关键,默认的背景会有16dp的边距-->
@@ -35,9 +35,9 @@
         <item name="listPreferredItemPaddingRight">0dp</item>
     </style>
 
-    <style name="AppCompatDialog.Common" parent="AppCompatDialog.Base" />
+    <style name="Resource.AppCompatDialog.Common" parent="Resource.AppCompatDialog.Base" />
 
-    <style name="AppCompatDialog.AppTheme.Base" parent="AppTheme.NoActionBar">
+    <style name="Resource.AppCompatDialog.AppTheme.Base" parent="Resource.AppTheme.NoActionBar">
         <!--去掉系统默认标题栏-->
         <item name="windowNoTitle">true</item>
         <!--这个很关键,默认的背景会有16dp的边距-->
@@ -65,6 +65,6 @@
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
-    <style name="AppCompatDialog.AppTheme.Common" parent="AppCompatDialog.Base" />
+    <style name="Resource.AppCompatDialog.AppTheme.Common" parent="Resource.AppCompatDialog.Base" />
 
 </resources>

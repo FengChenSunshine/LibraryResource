@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="RootTheme" parent="Theme.AppCompat.Light" />
+    <style name="Resource.RootTheme" parent="Theme.AppCompat.Light" />
 
     <!--配置Theme Style-->
-    <style name="BaseTheme" parent="RootTheme">
-        <item name="android:textViewStyle">@style/TextView.Compat</item>
+    <style name="Resource.BaseTheme" parent="Resource.RootTheme">
+        <!--TextView默认Style-->
+        <item name="android:textViewStyle">@style/Resource.TextView.Compat</item>
 
-        <item name="android:editTextStyle">@style/EditText.Compat</item>
-        <item name="editTextStyle">@style/EditText.Compat</item>
+        <!--EditText默认Style-->
+        <item name="android:editTextStyle">@style/Resource.EditText.Compat</item>
+        <item name="editTextStyle">@style/Resource.EditText.Compat</item>
 
-        <item name="android:buttonStyle">@style/Button.Compat</item>
-        <item name="buttonStyle">@style/Button.Compat</item>
+        <!--Button默认Style-->
+        <item name="android:buttonStyle">@style/Resource.Button.Compat</item>
+        <item name="buttonStyle">@style/Resource.Button.Compat</item>
 
+        <!--Toolbar默认Style-->
         <item name="toolbarStyle">@style/Toolbar.Common</item>
         <item name="toolbarNavigationButtonStyle">@style/Toolbar.Button.Navigation</item>
         <!--Toolbar PopupMenu位置-->
@@ -20,15 +24,13 @@
         <!--Toolbar PopupMenu 分割线-->
         <item name="android:dropDownListViewStyle">@style/Toolbar.PopupMenu.Overflow.Divider</item>
         <item name="actionMenuTextAppearance">@style/Toolbar.Menu</item>
-        <!--Toolbar上的菜单文字颜色-->
-        <item name="actionMenuTextColor">?attr/common_toolbar_menu_text_color</item>
 
         <!--AppCompatDialog默认主题-->
-        <item name="dialogTheme">@style/AppCompatDialog.Common</item>
+        <item name="dialogTheme">@style/Resource.AppCompatDialog.Common</item>
     </style>
 
     <!--配置Config-->
-    <style name="ConfigTheme.Base" parent="BaseTheme">
+    <style name="Resource.ConfigTheme.Base" parent="Resource.BaseTheme">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -38,89 +40,103 @@
         <item name="colorControlHighlight">@color/colorControlHighlight</item>
         <item name="colorButtonNormal">@color/colorButtonNormal</item>
 
-        <item name="android:actionBarSize">@dimen/toolbar_height</item>
+        <item name="resourceWidgetPrimary">@color/resource_widget_primary</item>
+        <item name="resourceWidgetPrimaryEnable">@color/resource_widget_primary_enable</item>
 
-        <item name="widget_primary">@color/widget_primary</item>
-        <item name="widget_primary_enable">@color/widget_primary_enable</item>
-
-        <!--Toolbar上的Menu文字大小-->
-        <item name="common_toolbar_menu_text_size">@dimen/text_size_small_dp</item>
-        <!--Toolbar上的Menu文字颜色-->
-        <item name="common_toolbar_menu_text_color">@color/text_black_color</item>
-
-        <!--Toolbar标题颜色-->
-        <item name="common_title_text_color">@color/text_black_color</item>
+        <!--Toolbar高度.-->
+        <item name="android:actionBarSize">@dimen/resource_toolbar_height</item>
+        <!--沉浸式状态栏时Toolbar变为contentScrim属性设置颜色时的触发条件-->
+        <item name="scrimVisibleHeightTrigger">@dimen/resource_scrim_visible_height_trigger</item>
+        <!--Toolbar标题文字颜色-->
+        <item name="resourceTitleTextColor">@color/resource_title_text_color</item>
         <!--Toolbar标题文字大小-->
-        <item name="common_title_text_size">@dimen/text_size_large_dp</item>
+        <item name="resourceTitleTextSize">@dimen/resource_title_text_size</item>
+        <!--Toolbar上的Menu文字大小-->
+        <item name="resourceToolbarMenuTextSize">@dimen/resource_text_size_small</item>
+        <!--Toolbar上的菜单文字颜色-->
+        <item name="actionMenuTextColor">@color/resource_text_black_color</item>
+
         <!--配置全局Text文字颜色-->
-        <item name="common_text_color">@color/common_text_color</item>
+        <item name="resourceTextColor">@color/resource_text_color</item>
         <!--配置全局Text文字大小-->
-        <item name="common_text_size">@dimen/common_text_size</item>
+        <item name="resourceTextSize">@dimen/resource_text_size</item>
 
         <!--全局公共的EditText文字颜色-->
-        <item name="common_edit_text_color">@color/common_edit_text_color</item>
+        <item name="resourceEditTextColor">@color/resource_edit_text_color</item>
         <!--全局公共的EditText Hint文字颜色-->
-        <item name="common_edit_text_color_hint">@color/common_edit_text_color_hint</item>
+        <item name="resourceEditTextColorHint">@color/resource_edit_text_color_hint</item>
         <!--全局公共的EditText文字大小-->
-        <item name="common_edit_text_size">@dimen/common_edit_text_size</item>
+        <item name="resourceEditTextSize">@dimen/resource_edit_text_size</item>
         <!--全局公共的EditText文字长度限制-->
-        <item name="common_edit_text_max_length">@integer/common_edit_text_length</item>
+        <item name="resourceEditTextMaxLength">@integer/resource_edit_text_length</item>
 
         <!--全局公共的Button文字颜色-->
-        <item name="common_button_text_color">@color/common_button_text_color</item>
+        <item name="resourceButtonTextColor">@color/resource_button_text_color</item>
         <!--全局公共的Button文字大小-->
-        <item name="common_button_text_size">@dimen/common_button_text_size</item>
+        <item name="resourceButtonTextSize">@dimen/resource_button_text_size</item>
 
         <!--公共CheckBox选中颜色-->
-        <item name="common_check_box_checked_color">@color/common_check_box_checked_color</item>
+        <item name="resourceCheckBoxCheckedColor">@color/resource_check_box_checked_color</item>
         <!--公共CheckBox默认颜色-->
-        <item name="common_check_box_normal_color">@color/common_check_box_normal_color</item>
+        <item name="resourceCheckBoxNormalColor">@color/resource_check_box_normal_color</item>
         <!--公共RadioButton选中颜色-->
-        <item name="common_radio_button_checked_color">@color/common_radio_button_checked_color
+        <item name="resourceRadioButtonCheckedColor">@color/resource_radio_button_checked_color
         </item>
         <!--公共RadioButton默认颜色-->
-        <item name="common_radio_button_normal_color">@color/common_radio_button_normal_color</item>
+        <item name="resourceRadioButtonNormalColor">@color/resource_radio_button_normal_color
+        </item>
 
         <!--该属性可以控制Toolbar溢出菜单按钮颜色-->
-        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorSecondary">@color/resource_white</item>
 
         <!--分割线配置-->
-        <item name="common_divider_color">@color/default_divider_color</item>
-        <item name="common_divider_width">@dimen/common_divider_width</item>
-        <item name="common_divider_toolbar_content_color">@color/common_divider_toolbar_content_color</item>
-        <item name="common_divider_toolbar_content_width">@dimen/common_divider_toolbar_content_width</item>
+        <item name="resourceDividerColor">@color/resource_divider_color</item>
+        <item name="resourceDividerWidth">@dimen/resource_divider_width</item>
+        <item name="resourceDividerToolbarContentColor">
+            @color/resource_divider_toolbar_content_color
+        </item>
+        <item name="resourceDividerToolbarContentWidth">
+            @dimen/resource_divider_toolbar_content_width
+        </item>
+
+        <!--全局圆角大小-->
+        <item name="resourceRadius">@dimen/resource_radius</item>
+        <!--全局半圆角-->
+        <item name="resourceCircle">@dimen/resource_circle</item>
+        <!--全局水波纹涟漪颜色-->
+        <item name="resourceRippleColor">@color/resource_transparency_250</item>
     </style>
 
     <!--该主题为AppTheme基类，主要用于在app module里配置自定义属性-->
-    <style name="ConfigTheme" parent="ConfigTheme.Base" />
+    <style name="Resource.ConfigTheme" parent="Resource.ConfigTheme.Base" />
 
     <!--可供直接使用的Theme基类 不同API Level可自行差异化配置-->
-    <style name="AppTheme" parent="ConfigTheme">
+    <style name="Resource.AppTheme" parent="Resource.ConfigTheme">
 
     </style>
     <!--没有ActionBar的Theme-->
-    <style name="AppTheme.NoActionBar" parent="AppTheme">
+    <style name="Resource.AppTheme.NoActionBar" parent="Resource.AppTheme">
         <item name="windowActionBar">false</item>
         <!-- 隐藏系统标题栏 -->
         <item name="windowNoTitle">true</item>
     </style>
 
     <!--全屏Theme-->
-    <style name="AppTheme.FullScreen" parent="AppTheme.NoActionBar">
+    <style name="Resource.AppTheme.FullScreen" parent="Resource.AppTheme.NoActionBar">
         <item name="android:windowFullscreen">true</item>
     </style>
 
     <!--沉浸式Theme-->
-    <style name="AppTheme.Immersion" parent="AppTheme.NoActionBar" />
+    <style name="Resource.AppTheme.Immersion" parent="Resource.AppTheme.NoActionBar" />
 
     <!--启动页Theme-->
-    <style name="AppTheme.LaunchTheme" parent="AppTheme.NoActionBar">
+    <style name="Resource.AppTheme.LaunchTheme" parent="Resource.AppTheme.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
     </style>
 
     <!--透明Theme-->
-    <style name="AppTheme.Translucent" parent="AppTheme.NoActionBar">
-        <item name="android:windowBackground">@color/transparency</item>
+    <style name="Resource.AppTheme.Translucent" parent="Resource.AppTheme.NoActionBar">
+        <item name="android:windowBackground">@color/resource_transparency</item>
         <item name="android:windowIsTranslucent">true</item>
     </style>
 

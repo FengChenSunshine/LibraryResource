@@ -2,7 +2,7 @@
 <resources>
 
     <!--可供直接使用的Theme基类-->
-    <style name="AppTheme" parent="ConfigTheme">
+    <style name="Resource.AppTheme" parent="ConfigTheme">
         <!--6.0以上原生支持适配浅色状态栏深色字体-->
         <!--4.4-6.0之间小米和魅族有提供方法适配-->
         <!--小米：https://dev.mi.com/doc/p=4769/index.html-->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Resource.ConstraintLayout.Child" parent="Resource.Layout.Root" />
+
+    <style name="Resource.ConstraintLayout.Child.Center" parent="Resource.ConstraintLayout.Child">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+
+    <style name="Resource.ConstraintLayout.Child.Center_Horizontal" parent="Resource.ConstraintLayout.Child">
+        <item name="android:layout_width">0dp</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+
+    <style name="Resource.ConstraintLayout.Child.Center_Vertical" parent="Resource.ConstraintLayout.Child">
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+
+</resources>

@@ -8,10 +8,10 @@ android {
     defaultConfig {
         minSdkVersion config.minSdkVersion
         targetSdkVersion config.targetSdkVersion
-        versionCode 3
-        versionName "1.0.2"
+        versionCode library.versionCode_release
+        versionName library.versionName_release
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -30,4 +30,7 @@ dependencies {
     androidTestImplementation library.test_espresso_core
 
     implementation library.support_appcompat
+
+    implementation "com.google.android.material:material:1.1.0"
+    implementation "androidx.constraintlayout:constraintlayout:1.1.3"
 }
